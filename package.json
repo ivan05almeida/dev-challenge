@@ -1,0 +1,31 @@
+{
+  "name": "dev-challenge",
+  "version": "1.0.0",
+  "description": "Class app dev challenge to parse a csv file to a json output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan05almeida/dev-challenge.git"
+  },
+  "keywords": [
+    "class_app",
+    "json",
+    "csv"
+  ],
+  "author": "Ivan de Paula Almeida Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan05almeida/dev-challenge/issues"
+  },
+  "homepage": "https://github.com/ivan05almeida/dev-challenge#readme",
+  "dependencies": {
+    "csvjson": "^4.3.4",
+    "file-system": "^2.2.2",
+    "google-libphonenumber": "^3.0.3",
+    "lodash": "^4.17.4",
+    "schema-inspector": "^1.6.8"
+  }
+}
