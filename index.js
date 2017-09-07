@@ -1,13 +1,14 @@
+var converter = require('./app/csvjson-converter');
 var fs = require('fs');
-var schemaInspector = require('schema-inspector');
-var csvjson = require('csvjson');
-var lodash = require('lodash');
-var googleLibphonenumber = require('google-libphonenumber').PhoneNumberFormat;
 
-var csv_file = fs.readFileSync('src/input.csv', { encoding : 'utf8'});
-var json_out = csvjson.toObject(csv_file, {});
-
-var test = lodash.ma
-
-
-console.log(json_out);
+converter.toJson('src/input.csv',function(data){
+    console.log(data);
+    data = JSON.stringify(data);
+    fs.writeFile("output.json", data, 'utf8', function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    
+        console.log("The file was saved!");
+    }); 
+});

@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/ivan05almeida/dev-challenge#readme",
   "dependencies": {
-    "csvjson": "^4.3.4",
+    "email-validator": "^1.1.1",
     "file-system": "^2.2.2",
     "google-libphonenumber": "^3.0.3",
     "lodash": "^4.17.4",
-    "schema-inspector": "^1.6.8"
+    "node-phonenumber": "^0.3.0"
   }
 }
