@@ -1,6 +1,4 @@
 var lodash = require('lodash');
-;
-
 
 module.exports = function(jsonObj){
     jsonObj = lodash.orderBy(jsonObj,'eid','asc'); //sort by eid for larger lists

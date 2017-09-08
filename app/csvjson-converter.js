@@ -20,7 +20,6 @@ function csvToJson(csv){
     }); //split all headers ignoring strings with comma inside quotes and removing quotes
     var result = [];
 
-    var test;
     //for each header insert value
     for(var i=1;i<lines.length;i++){
         var obj = {};
