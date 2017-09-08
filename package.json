@@ -2,7 +2,7 @@
   "name": "dev-challenge",
   "version": "1.0.0",
   "description": "Class app dev challenge to parse a csv file to a json output",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
